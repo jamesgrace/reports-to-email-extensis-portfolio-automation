@@ -13,7 +13,7 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
 
 ## Python Script > Configuration :
 
-#### 2. CONFIGURATION
+#### 2. PYTHON SCRIPT
 * **`reports_to_email.py`**
 
   * `SESSION_PATH` = `"D:\\Extensis Portfolio Nightly Reports\\"`
