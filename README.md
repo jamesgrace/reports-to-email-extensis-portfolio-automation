@@ -5,7 +5,7 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
 * Extensis Portfolio version 3.6.3 ( _or greater_ ) licensed for the Portfolio API.
 * Pyhton 3.x
 
-## Portfolio Instance > Installation Procedure :
+## Portfolio Instance > Configuration :
 
 #### 1. API TOKEN
 * Via the Portfolio Administration ( _:8091_ ) Web interface , select "Users" and either take note of an existing API Token or create a new API Token.
