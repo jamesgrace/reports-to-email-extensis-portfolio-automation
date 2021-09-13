@@ -26,8 +26,8 @@ INCLUDE_HEADER = "true"
 LOCALE = "en_US"
 SMTP_SERVER = "mail.example.com"
 SMTP_PORT = 25
-EMAIL_FROM = "Extensis_Playground_no-reply@extensis.com"
-EMAIL_TO = ["Recipent1@example.com","Recipient2@extensis.com"]
+EMAIL_FROM = "server_noreply@example.com"
+EMAIL_TO = ["recipent1@example.com","recipient2@example.com"]
 EMAIL_SUBJECT = '[ Extensis Portfolio ] : Activity Reports for '+str(datetime.datetime.today().strftime("%A , %d %B %Y"))+'...'
 EMAIL_BODY = "See the attached Portfolio Activity Reports in TSV ( Tab Separated Value ) format..."
 
