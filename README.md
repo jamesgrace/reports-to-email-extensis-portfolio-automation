@@ -6,30 +6,32 @@ Script includes logging , customizable email notifications , as well as the capa
 
 ## Installation Procedure :
 
-#### 1. BATCH FILE CONFIGURATION
+#### 1. CONFIGURATION
 * **`reports_to_email.py`**
 
-  * `SESSION_PATH` = `D:\\Extensis Portfolio Nightly Reports\\`
+  * `SESSION_PATH` = `"D:\\Extensis Portfolio Nightly Reports\\"`
     * Folder location containing individual session folders.
-  * `SESSION_FOLDER` = `Portfolio-Activity_`
+  * `SESSION_FOLDER` = `"Portfolio-Activity_"`
     * Prepended names of individual session folders.
-  * `DELETE_PREVIOUS` = `yes`
+  * `DELETE_PREVIOUS` = `"yes"`
     * Delete previous session folder.
   * `REPORTS` = `["asset-downloads", "search-terms", "asset-deletions", "asset-uploads"]`
-    * Which reprts to download.
+    * Which speciifc reprts to include.
   * `PREVIOUS_DAYS` = `"30"`
     * Number of previous days.
   * `INCLUDE_HEADER` = `"true"`
     * Include report headers.
   * `LOCALE` = `"en_US"`
     * Report localization.
-  * `emailserver` = `mail.example.com`
+  * `SMTP_SERVER` = `"mail.example.com"`
     * Email - Server:
-  * `emailto` = `recipient@example.com`
-    * Email - To:
-  * `emailfrom` = `server_noreply@example.com`
+  * `SMTP_PORT` = `25`
+    * Email - Port: 
+  * `EMAIL_FROM` = `server_noreply@example.com`
     * Email - From:
-  * `emailsubject` = `"Automation Notification: ExifTool Scan Log"`
+  * `EMAIL_TO` = `recipient@example.com`
+    * Email - To:
+  * `EMAIL_SUBJECT` = `[ Extensis Portfolio ] : Activity Reports for`
     * Email - Subject:
-
-:star: Detailed information regarding files that may contain "inflated" `XMP-Photoshop:DocumentAncestors` metadata can be found here : https://prepression.blogspot.com/2017/06/metadata-bloat-photoshopdocumentancestors.html
+  * `EMAIL_BODY` = `"See the attached Portfolio Activity Reports in TSV ( Tab Separated Value ) format.."`
+    * Email - Body:
