@@ -25,7 +25,7 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
   * `REPORTS` = `["asset-downloads", "search-terms", "asset-deletions", "asset-uploads"]`
     * Which speciifc reports to download.
   * `PREVIOUS_DAYS` = `"30"`
-    * Number of previous days.
+    * Number of previous days to include within the reporting data.
   * `INCLUDE_HEADER` = `"true"`
     * Include report headers ?
   * `LOCALE` = `"en_US"`
