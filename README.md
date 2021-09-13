@@ -11,17 +11,17 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
 * **`reports_to_email.py`**
 
   * `SESSION_PATH` = `"D:\\Extensis Portfolio Nightly Reports\\"`
-    * Folder location containing individual session folders.
+    * Base folder location containing individual session folders.
   * `SESSION_FOLDER` = `"Portfolio-Activity_"`
-    * Prepended names of individual session folders.
+    * Folder name indentifier prepedned to individual session folders.
   * `DELETE_PREVIOUS` = `"yes"`
-    * Delete previous session folder.
+    * Delete previous session folder ?
   * `REPORTS` = `["asset-downloads", "search-terms", "asset-deletions", "asset-uploads"]`
     * Which speciifc reports to download.
   * `PREVIOUS_DAYS` = `"30"`
     * Number of previous days.
   * `INCLUDE_HEADER` = `"true"`
-    * Include report headers.
+    * Include report headers ?
   * `LOCALE` = `"en_US"`
     * Report localization.
   * `SMTP_SERVER` = `"mail.example.com"`
