@@ -2,12 +2,17 @@
 Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwards ( _as attachments_ ) to selected email recipients. Script includes logging , customizable email notifications , as well as the capability for predetermined scheduling ( _via the Microsoft Windows Task Scheduler_ ).
 
 #### Requirements :
-* Extensis Portfolio version 3.6.3 ( _or greater_ )
+* Extensis Portfolio version 3.6.3 ( _or greater_ ) licensed for the Portfolio API.
 * Pyhton 3.x
 
-## Installation Procedure :
+## Portfolio Instance > Installation Procedure :
 
-#### 1. CONFIGURATION
+#### 1. API TOKEN
+* Via the Portfolio Administration ( _:8091_ ) Web interface , select "Users" and either take note of an existing API Token or create a new API Token.
+
+## Python Script > Configuration :
+
+#### 2. CONFIGURATION
 * **`reports_to_email.py`**
 
   * `SESSION_PATH` = `"D:\\Extensis Portfolio Nightly Reports\\"`
@@ -36,3 +41,4 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
     * Email - Subject:
   * `EMAIL_BODY` = `"See the attached Portfolio Activity Reports in TSV ( Tab Separated Value ) format.."`
     * Email - Body:
+
