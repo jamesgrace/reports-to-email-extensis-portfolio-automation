@@ -17,7 +17,7 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
   * `DELETE_PREVIOUS` = `"yes"`
     * Delete previous session folder.
   * `REPORTS` = `["asset-downloads", "search-terms", "asset-deletions", "asset-uploads"]`
-    * Which speciifc reprts to include.
+    * Which speciifc reports to download.
   * `PREVIOUS_DAYS` = `"30"`
     * Number of previous days.
   * `INCLUDE_HEADER` = `"true"`
@@ -28,9 +28,9 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
     * Email - Server:
   * `SMTP_PORT` = `25`
     * Email - Port: 
-  * `EMAIL_FROM` = `server_noreply@example.com`
+  * `EMAIL_FROM` = `"server_noreply@example.com"`
     * Email - From:
-  * `EMAIL_TO` = `recipient@example.com`
+  * `EMAIL_TO` = `["recipent1@example.com","recipient2@example.com"]`
     * Email - To:
   * `EMAIL_SUBJECT` = `[ Extensis Portfolio ] : Activity Reports for`
     * Email - Subject:
