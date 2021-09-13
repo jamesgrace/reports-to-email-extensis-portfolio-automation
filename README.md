@@ -9,7 +9,7 @@ Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwa
 
 #### 1. API TOKEN
 * Via the Portfolio Administration ( _:8091_ ) Web interface , select "Users" and either take note of an existing API Token or create a new API Token.
-  * API Token Account will need to be granted Administrator level Role access to at least one Catalog in order to be granted access to the REST API Reports.
+  :exclamation: API Token Account will need to be granted Administrator level Role access to at least one Catalog in order to be granted access to the REST API Reports.
 
 ## Python Script > Configuration :
 
