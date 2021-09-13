@@ -2,6 +2,7 @@
 Script includes logging , customizable email notifications , as well as the capability for predetermined scheduling ( _via the Microsoft Windows Task Scheduler_ ).
 
 #### Requirements :
+* Extensis Portfolio version 3.6.3 ( _or greater_ )
 * Pyhton 3.x
 
 ## Installation Procedure :
