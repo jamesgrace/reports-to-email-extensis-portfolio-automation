@@ -1,5 +1,5 @@
 # reports-to-email-extensis-portfolio-automation
-Script includes logging , customizable email notifications , as well as the capability for predetermined scheduling ( _via the Microsoft Windows Task Scheduler_ ).
+Via the Portfolio REST API , retrieves selected Portfolio Reports and then forwards ( _as attachements_ ) to selected email receipents. Script includes logging , customizable email notifications , as well as the capability for predetermined scheduling ( _via the Microsoft Windows Task Scheduler_ ).
 
 #### Requirements :
 * Extensis Portfolio version 3.6.3 ( _or greater_ )
